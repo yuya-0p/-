@@ -526,11 +526,13 @@ body {
     position: relative;
   }
   .catchcopy{
+    width: 300px;
     text-align: center;
     position: absolute;
     top: 50%;
-    margin-top: -0.5em;
-    align-items: center;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   .news{
     width: 100%;
@@ -539,7 +541,11 @@ body {
     width: 90%;
   }
   .service-content{
-    
+    flex-wrap: wrap;
+  }
+  .service-img,
+  .service-content_inner{
+    width: 80%;
   }
   
 }
