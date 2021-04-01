@@ -540,12 +540,16 @@ body {
   .mission-content{
     width: 90%;
   }
-  .service-content{
-    flex-wrap: wrap;
+  .recruit-company{
+   display: block; 
   }
-  .service-img,
-  .service-content_inner{
-    width: 80%;
+  .recruit-company_size{
+    width: 100%;
   }
-  
+  .faq-title{
+    font-size: 32px;
+  }
+  .header-logo{
+    margin-left: 140px;
+  }
 }
