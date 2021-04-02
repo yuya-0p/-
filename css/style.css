@@ -540,6 +540,27 @@ body {
   .mission-content{
     width: 90%;
   }
+  .service{
+    height: 1150px;
+  }
+  .service-img{
+    margin: 0 auto;
+    width: 90%;
+  }
+  .service-content_inner{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    width: 90%;
+  }
+  .service-img_second{
+    margin: 70% auto;
+    width: 90%;
+  }
+  .service-content_inner-second{
+    position: absolute;
+    top: 37%;
+  }
   .recruit-company{
    display: block; 
   }
@@ -550,6 +571,7 @@ body {
     font-size: 32px;
   }
   .header-logo{
-    margin-left: 140px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
